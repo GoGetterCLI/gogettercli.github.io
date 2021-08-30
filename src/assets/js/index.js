@@ -1,8 +1,8 @@
-/*
-*   IndexJS for Vue
-*     By AceiusIO    
-* acei.us/js/index.js
-*/
+/**********************
+*   IndexJS for Vue   *
+*     By AceiusIO     *
+*   Version  Berlin   *
+**********************/
 
 //Vue Components
 
