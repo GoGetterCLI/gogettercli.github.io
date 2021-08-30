@@ -24,12 +24,12 @@ body {
 
 ::-moz-selection {
     color: white;
-    background: black; 
+    background: blueviolet; 
 }
 
 ::selection {
     color: white;
-    background: black; 
+    background: blueviolet; 
 }
 
 .text-gradiant {
