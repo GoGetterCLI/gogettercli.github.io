@@ -4,17 +4,6 @@
 *   Version  Berlin   *
 **********************/
 
-//Vue Components
-
-const vmeta = Vue.component('vmeta', { //Use Google Tag Manager
-    template: `<div>
-    <!-- Meta Injects -->
-        <meta name="Description" content="Hello person who is reading this, this is my attempt to make a desctiption for my website. Enjoy.">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8"/>
-    </div>
-`});
-
 const linksio = Vue.component('linksio', {
     template: `<nav id="navigation" class="w3-bar">
             <a href="https://acei.us/" class="w3-bar-item w3-button"><img src="https://acei.us/favicon.png" alt="Cyborg Aceius" width="25"/> Home</a>
@@ -29,7 +18,7 @@ const linksio = Vue.component('linksio', {
     </nav>`
 });
 
-const headerio = Vue.component('headerio', { //Header
+const headerio = Vue.component('headerio', {
     props: ['title'],
     template: `<header class="w3-container io-header">
         <linksio></linksio>
@@ -130,14 +119,6 @@ const footerio = Vue.component('footerio', { // Footer
     name: 'footerIO',
 });
 
-if('serviceWorker' in navigator){
-    navigator.serviceWorker.register('/sw.js')
-      .then(reg => console.log('service worker registered'))
-      .catch(err => console.log('service worker not registered', err));
-}
-
-//Vue VM
-
 const app = new Vue({
     el: '#app',
     data: {
@@ -146,13 +127,6 @@ const app = new Vue({
     components: {
         headerio,
         footerio,
-    }
-});
-
-const injector = new Vue({
-    el: '#vmeta',
-    components: {
-        vmeta,
     }
 });
 
