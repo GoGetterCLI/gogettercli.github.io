@@ -9,7 +9,6 @@ const linksio = Vue.component('linksio', {
             <a href="https://acei.us/" class="w3-bar-item w3-button"><img src="https://acei.us/favicon.png" alt="Cyborg Aceius" width="25"/> Home</a>
             <a class="w3-bar-item"> | </a>
             <a href="https://stuffby.acei.us" class="w3-bar-item w3-button">Stuff</a>
-            <a href="https://stuffby.acei.us/project-tracker" class="w3-bar-item w3-button">Proj. Tracker</a>
             <a href="https://aceius.gitbook.io/wiki/" class="w3-bar-item w3-button">Wiki</a>
             <a class="w3-bar-item"> | </a>
             <a href="https://acei.us/about.html" class="w3-bar-item w3-button">About</a>
