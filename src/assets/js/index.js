@@ -88,12 +88,12 @@ const footerio = Vue.component('footerio', { // Footer
         <div class="ft-gradient"><br><br><br><br></div>
         <div class="io-footer">
             <div class="w3-bar w3-container">
-                <a href="https://acei.us/" class="w3-bar-item w3-button">Website:</a>
-                <!--<a href="/about.html" class="w3-bar-item w3-button">About</a>-->
+                <!--<a href="https://acei.us/" class="w3-bar-item w3-button">Website:</a>
+                <a href="/about.html" class="w3-bar-item w3-button">About</a>
                 <a href="https://acei.us/contact.html" class="w3-bar-item w3-button">Contact</a>
                 <a href="https://acei.us/other/changelog" class="w3-bar-item w3-button">Changelog</a>
                 <a href="https://acei.us/other/privacy.html" class="w3-bar-item w3-button">Privacy Policy</a>
-                <a href="https://acei.us/other/librejs.html" class="w3-bar-item w3-button" rel="jslicense">LibreJS</a>
+                <a href="https://acei.us/other/librejs.html" class="w3-bar-item w3-button" rel="jslicense">LibreJS</a>-->
             </div>
 
             <div class="w3-bar w3-container">
@@ -109,7 +109,7 @@ const footerio = Vue.component('footerio', { // Footer
             </div>-->
 
             <div class="w3-container">
-                <p>This website's content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>, unless otherwise noted. If you enjoy the content, please consider <a href="https://acei.us/donate.html">donating</a>.</p>
+                <p>This website's content is licensed under a <a rel="license" href="https://gitlab.com/AceiusIO/acei.us/-/blob/main/LICENSE">MIT License</a>, unless otherwise noted. If you enjoy the content, please consider <a href="https://acei.us/donate.html">donating</a>.</p>
             </div>
 
             <div class="w3-container io-footer-gradiant">
