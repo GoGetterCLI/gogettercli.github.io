@@ -83,7 +83,7 @@ h1 h3 {
 }
 /* Footer Classes */
 .io-footer {
-    background-image: image('assets/img/zen.png');
+    background-image: url('/assets/img/zen.png');
     background-color: rgb(55, 55, 55);
     color: white;
     font-weight: normal;
