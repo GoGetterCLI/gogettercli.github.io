@@ -14,7 +14,7 @@ const linksio = Vue.component('linksio', {
             <a href="https://acei.us/about.html" class="w3-bar-item w3-button">About</a>
             <a href="https://acei.us/contact.html" class="w3-bar-item w3-button">Contact</a>
             <a href="https://acei.us/donate.html" class="w3-bar-item w3-button">Donate</a>
-            <a href="https://acei.us/404.html" class="w3-bar-item w3 button">Light/dark</a>
+            <a class="w3-bar-item w3 button">Light/dark</a>
     </nav>`
 });
 
