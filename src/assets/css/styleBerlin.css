@@ -13,7 +13,6 @@
     background-color: #1D1E35;
     color:white;
 }
-
 body {
     background-color: rgb(55, 55, 55);
         
@@ -25,17 +24,13 @@ body {
 } .w3-container h1, h2, h3{
     font-family: 'Roboto', 'Ubuntu', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 ::-moz-selection {
     color: white;
     background: blueviolet; 
-}
-
-::selection {
+} ::selection {
     color: white;
     background: blueviolet; 
 }
-
 .text-gradiant {
     background: linear-gradient(to right,blue,purple); 
     -webkit-text-fill-color: transparent; 
