@@ -88,11 +88,11 @@ const footerio = Vue.component('footerio', { // Footer
         <div class="ft-gradient"><br><br><br><br></div>
         <div class="io-footer">
             <div class="w3-bar w3-container">
-                <!--<a href="https://acei.us/" class="w3-bar-item w3-button">Website:</a>
+                <a href="https://acei.us/" class="w3-bar-item w3-button">Website:</a>
                 <a href="/about.html" class="w3-bar-item w3-button">About</a>
                 <a href="https://acei.us/contact.html" class="w3-bar-item w3-button">Contact</a>
-                <a href="https://acei.us/other/changelog" class="w3-bar-item w3-button">Changelog</a>
-                <a href="https://acei.us/other/privacy.html" class="w3-bar-item w3-button">Privacy Policy</a>
+                <a href="https://acei.us/history.html" class="w3-bar-item w3-button">Changelog</a>
+                <!--<a href="https://acei.us/other/privacy.html" class="w3-bar-item w3-button">Privacy Policy</a>
                 <a href="https://acei.us/other/librejs.html" class="w3-bar-item w3-button" rel="jslicense">LibreJS</a>-->
             </div>
 
