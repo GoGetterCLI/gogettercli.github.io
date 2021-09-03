@@ -33,7 +33,7 @@ const headerio = Vue.component('headerio', {
 
 const alert = Vue.component('alert', {
     props: ['icon'],
-    template: `<section class="w3-container w3-color-orange">
+    template: `<section class="w3-container w3-red">
     <p>
         {{icon}} <slot></slot>
     </p>
