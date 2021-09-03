@@ -29,18 +29,16 @@ const headerio = Vue.component('headerio', {
     </header>`,
 });
 
-const squaredheader = Vue.component('squaredheader', {
-    props: ['title'],
-    template: `<header>
-        <section class="w3-container io-footer-gradiant" style="color:white;">
-            <linksio></linksio>
-        </section>
-        <section class="w3-container w3-black">
-            <h1>{{title}}</h1>
-            <h3>Squared</h3>
-        </section>
-    </header>`,
-});
+// &#127881; is 🎉, while &#9888; is ⚠️
+
+const alert = Vue.component('alert', {
+    props: ['icon'],
+    template: `<section class="w3-container w3-orange">
+    <p>
+        {{icon}} <slot></slot>
+    </p>
+    </section>`
+})
 
 const blogpost = Vue.component('blogpost', { // Post
     props: ['posttitle', 'postauthor', 'postlink'],
