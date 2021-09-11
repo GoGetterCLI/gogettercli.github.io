@@ -24,17 +24,24 @@ body {
 } .w3-container h1, h2, h3{
     font-family: 'Roboto', 'Ubuntu', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.text-gradiant {
+    background: linear-gradient(to right,blue,purple); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+}
+/* Vendor Classes */
+::-webkit-scrollbar-thumb {
+    background-color: #424242 !important;
+}
+::-webkit-scrollbar {
+    background-color: transparent !important
+}
 ::-moz-selection {
     color: white;
     background: blueviolet; 
 } ::selection {
     color: white;
     background: blueviolet; 
-}
-.text-gradiant {
-    background: linear-gradient(to right,blue,purple); 
-    -webkit-text-fill-color: transparent; 
-    -webkit-background-clip: text;
 }
 /* Homepage Classes */
 h1 h3 {
