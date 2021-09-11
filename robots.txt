@@ -1,1 +1,1 @@
-Sitemap: https://acei.us/.well-known/sitemap.xml
+Sitemap: https://acei.us/sitemap.xml
