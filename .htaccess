@@ -2,6 +2,7 @@
 ErrorDocument 404 /404.html
 #Developer Redirects
 Redirect 301 "/CONTRIBUTING.md" "https://gitlab.com/AceiusIO/acei.us/-/blob/main/CONTRIBUTING.md"
+Redirect 301 "/README.md" "https://gitlab.com/AceiusIO/acei.us/-/blob/main/README.md"
 Redirect 301 "/LICENSE" "https://gitlab.com/AceiusIO/acei.us/-/blob/main/LICENSE"
 #Remove File Extentions
 Redirect 301 "/about" "/about.html"
