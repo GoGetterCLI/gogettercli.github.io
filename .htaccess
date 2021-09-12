@@ -1,2 +1,15 @@
+#Error Pages
 ErrorDocument 404 /404.html
+#Developer Redirects
 Redirect 301 "/CONTRIBUTING.md" "https://gitlab.com/AceiusIO/acei.us/-/blob/main/CONTRIBUTING.md"
+Redirect 301 "/LICENSE" "https://gitlab.com/AceiusIO/acei.us/-/blob/main/LICENSE"
+#Remove File Extentions
+Redirect 301 "/about" "/about.html"
+Redirect 301 "/contact" "/contact.html"
+Redirect 301 "/donate" "/donate.html"
+Redirect 301 "/index" "/"
+Redirect 301 "/home" "/"
+#Roadmaps
+Redirect 301 "/history" "/history.html"
+Redirect 301 "/roadmap" "/history.html"
+Redirect 301 "/changelog" "/history.html"
