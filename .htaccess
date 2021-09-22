@@ -10,6 +10,7 @@ Redirect 301 "/contact" "/contact.html"
 Redirect 301 "/donate" "/donate.html"
 Redirect 301 "/index" "/"
 Redirect 301 "/home" "/"
+Redirect 301 "/cloud" "/cloud.html"
 #Roadmaps
 Redirect 301 "/history" "/history.html"
 Redirect 301 "/roadmap" "/history.html"
