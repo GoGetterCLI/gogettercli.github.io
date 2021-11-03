@@ -1,7 +1,7 @@
 /**********************
 *   IndexJS for Vue   *
 *     By AceiusIO     *
-*   Version  Berlin   *
+*   Version Beijing   *
 **********************/
 
 const linksio = Vue.component('linksio', {
@@ -123,7 +123,7 @@ const footerio = Vue.component('footerio', { // Footer
 const app = new Vue({
     el: '#app',
     data: {
-        datapoint: 'Ill use this at some point',
+        version: 'Beijing',
     },
     components: {
         headerio,
