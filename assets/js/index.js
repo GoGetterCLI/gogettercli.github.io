@@ -1,27 +1,27 @@
 /**********************
 *   IndexJS for Vue   *
 *     By AceiusIO     *
-*   Version Beijing   *
+*    Version Seoul    *
 **********************/
 
-const linksio = Vue.component('linksio', {
+const navigation_links = Vue.component('linksio', {
     template: `<nav id="navigation" class="w3-bar">
-            <a href="https://acei.us/" class="w3-bar-item w3-button"><img src="https://acei.us/favicon.png" alt="Cyborg Aceius" width="25"/> Home</a>
+            <a href="/" class="w3-bar-item w3-button"><img src="https://acei.us/favicon.png" alt="Cyborg Aceius" width="25"/> Home</a>
             <a class="w3-bar-item"> | </a>
-            <a href="https://acei.us/cloud.html" class="w3-bar-item w3-button">Cloud</a>
+            <!--<a href="/cloud.html" class="w3-bar-item w3-button">Cloud</a>-->
             <a href="https://aceius.gitbook.io/wiki/" class="w3-bar-item w3-button">Wiki</a>
             <a class="w3-bar-item"> | </a>
-            <a href="https://acei.us/about.html" class="w3-bar-item w3-button">About</a>
-            <a href="https://acei.us/contact.html" class="w3-bar-item w3-button">Contact</a>
-            <a href="https://acei.us/donate.html" class="w3-bar-item w3-button">Donate</a>
+            <a href="/about.html" class="w3-bar-item w3-button">About</a>
+            <a href="/contact.html" class="w3-bar-item w3-button">Contact</a>
+            <a href="/donate.html" class="w3-bar-item w3-button">Donate</a>
             <a class="w3-bar-item"> | </a>
-            <a href="https://stuffby.acei.us" class="w3-bar-item w3-button">Login</a>
-            <!--<a href="https://acei.us/panda.html" class="w3-bar-item w3-button">Panda</a>
+            <!--<a href="https://stuffby.acei.us" class="w3-bar-item w3-button">Login</a>
+            <a href="https://acei.us/panda.html" class="w3-bar-item w3-button">Panda</a>
             <a class="w3-bar-item w3 button">&#x1F319; Light/ &#9728; Dark</a>-->
     </nav>`
 });
 
-const headerio = Vue.component('headerio', {
+const website_header = Vue.component('headerio', {
     props: ['title'],
     template: `<header class="w3-container io-header">
         <linksio></linksio>
@@ -33,7 +33,7 @@ const headerio = Vue.component('headerio', {
 
 // &#127881; is 🎉, while &#9888; is ⚠️
 
-const alert = Vue.component('alert', {
+const alert_notification = Vue.component('alert', {
     props: ['icon'],
     template: `<section class="w3-container w3-red">
     <p>
@@ -42,7 +42,7 @@ const alert = Vue.component('alert', {
     </section>`
 })
 
-const blogpost = Vue.component('blogpost', { // Post
+const deprecated_blogpost = Vue.component('blogpost', { // Post
     props: ['posttitle', 'postauthor', 'postlink'],
     template: `<article class="w3-container blogpost">
         <h3 :id="postlink">{{posttitle}}</h3>
@@ -55,7 +55,7 @@ const blogpost = Vue.component('blogpost', { // Post
     `,
 });
 
-const accordian = Vue.component('accordian', {
+const deprecated_accordian = Vue.component('accordian', {
     props: ['title', 'num'],
     name: 'accordian',
     template: `<section>
@@ -68,7 +68,7 @@ const accordian = Vue.component('accordian', {
     </section>`
 });
 
-const codeblock = Vue.component('codeblock', { // Codeblock
+const deprecated_codeblock = Vue.component('codeblock', { // Codeblock
     props: ['lang'],
     name: 'codeblock',
     template: `<!-- Begin Codeblock -->
@@ -83,15 +83,15 @@ const codeblock = Vue.component('codeblock', { // Codeblock
     `,
 });
 
-const footerio = Vue.component('footerio', { // Footer
+const website_footer = Vue.component('footerio', { // Footer
     template: `<footer>
         <div class="ft-gradient"><br><br><br><br></div>
         <div class="io-footer">
             <div class="w3-bar w3-container">
-                <a href="https://acei.us/" class="w3-bar-item w3-button">Website:</a>
+                <a href="/" class="w3-bar-item w3-button">Website:</a>
                 <a href="/about.html" class="w3-bar-item w3-button">About</a>
-                <a href="https://acei.us/contact.html" class="w3-bar-item w3-button">Contact</a>
-                <a href="https://acei.us/history.html" class="w3-bar-item w3-button">Changelog</a>
+                <a href="/contact.html" class="w3-bar-item w3-button">Contact</a>
+                <a href="/history.html" class="w3-bar-item w3-button">Changelog</a>
                 <!--<a href="https://acei.us/other/privacy.html" class="w3-bar-item w3-button">Privacy Policy</a>
                 <a href="https://acei.us/other/librejs.html" class="w3-bar-item w3-button" rel="jslicense">LibreJS</a>-->
             </div>
@@ -113,7 +113,7 @@ const footerio = Vue.component('footerio', { // Footer
             </div>
 
             <div class="w3-container io-footer-gradiant">
-                <p><a href="https://www.acei.us">www.acei.us</a> made &amp; maintained with love by AceiusIO and contributors.</p>
+                <p><a href="https://www.acei.us">www.acei.us</a> made &amp; maintained with love by <a href="/about.html">The Acei.us Team</a>.</p>
             </div>
         </div>
     </footer>`,
