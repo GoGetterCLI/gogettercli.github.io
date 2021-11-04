@@ -11,7 +11,9 @@ Redirect 301 "/donate" "/donate.html"
 Redirect 301 "/index" "/"
 Redirect 301 "/home" "/"
 Redirect 301 "/cloud" "/cloud.html"
+
 #Roadmaps
-Redirect 301 "/history" "/history.html"
-Redirect 301 "/roadmap" "/history.html"
-Redirect 301 "/changelog" "/history.html"
+Redirect 301 "/history" "https://gitlab.com/AceiusIO/acei.us/-/commits/main"
+Redirect 301 "/roadmap" "https://gitlab.com/AceiusIO/acei.us/-/commits/main"
+Redirect 301 "/changelog" "https://gitlab.com/AceiusIO/acei.us/-/commits/main"
+Redirect 301 "/history.html" "https://gitlab.com/AceiusIO/acei.us/-/commits/main"

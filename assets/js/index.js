@@ -14,8 +14,8 @@ const linksio = Vue.component('linksio', {
             <a href="/about.html" class="w3-bar-item w3-button">About</a>
             <a href="/contact.html" class="w3-bar-item w3-button">Contact</a>
             <a href="/donate.html" class="w3-bar-item w3-button">Donate</a>
-            <a class="w3-bar-item"> | </a>
-            <!--<a href="https://stuffby.acei.us" class="w3-bar-item w3-button">Login</a>
+            <!--<a class="w3-bar-item"> | </a>
+            <a href="https://stuffby.acei.us" class="w3-bar-item w3-button">Login</a>
             <a href="https://acei.us/panda.html" class="w3-bar-item w3-button">Panda</a>
             <a class="w3-bar-item w3 button">&#x1F319; Light/ &#9728; Dark</a>-->
     </nav>`
