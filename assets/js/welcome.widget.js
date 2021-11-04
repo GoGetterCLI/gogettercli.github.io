@@ -3,7 +3,7 @@ let selected_greeting = 0;
 
 const welcome_loop = window.setInterval(function(){
     document.getElementById('greetings').innerHTML = greetings[selected_greeting]
-    if (selected_greeting > greetings.length) {
+    if (selected_greeting = greetings.length) {
         selected_greeting = 1;
         console.log('Restarted Greeting Loop');
     } else {
