@@ -1,0 +1,2 @@
+Redirect 301 "/pages/index.html" "/"
+Redirect 301 "/pages" "/"
