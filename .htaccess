@@ -1,9 +1,11 @@
 #Error Pages
 ErrorDocument 404 /404.html
+
 #Developer Redirects
 Redirect 301 "/CONTRIBUTING.md" "https://gitlab.com/AceiusIO/acei.us/-/blob/main/CONTRIBUTING.md"
 Redirect 301 "/README.md" "https://gitlab.com/AceiusIO/acei.us/-/blob/main/README.md"
 Redirect 301 "/LICENSE" "https://gitlab.com/AceiusIO/acei.us/-/blob/main/LICENSE"
+
 #Remove File Extentions
 Redirect 301 "/about" "/about.html"
 Redirect 301 "/contact" "/contact.html"
@@ -17,3 +19,6 @@ Redirect 301 "/history" "https://gitlab.com/AceiusIO/acei.us/-/commits/main"
 Redirect 301 "/roadmap" "https://gitlab.com/AceiusIO/acei.us/-/commits/main"
 Redirect 301 "/changelog" "https://gitlab.com/AceiusIO/acei.us/-/commits/main"
 Redirect 301 "/history.html" "https://gitlab.com/AceiusIO/acei.us/-/commits/main"
+
+#Just some fun
+Redirect 301 "/panda" "https://youtu.be/dQw4w9WgXcQ"
