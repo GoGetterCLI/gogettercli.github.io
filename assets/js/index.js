@@ -4,7 +4,7 @@
 *    Version Seoul    *
 **********************/
 
-const navigation_links = Vue.component('linksio', {
+const linksio = Vue.component('linksio', {
     template: `<nav id="navigation" class="w3-bar">
             <a href="/" class="w3-bar-item w3-button"><img src="https://acei.us/favicon.png" alt="Cyborg Aceius" width="25"/> Home</a>
             <a class="w3-bar-item"> | </a>
@@ -21,7 +21,7 @@ const navigation_links = Vue.component('linksio', {
     </nav>`
 });
 
-const website_header = Vue.component('headerio', {
+const headerio = Vue.component('headerio', {
     props: ['title'],
     template: `<header class="w3-container io-header">
         <linksio></linksio>
@@ -33,7 +33,7 @@ const website_header = Vue.component('headerio', {
 
 // &#127881; is 🎉, while &#9888; is ⚠️
 
-const alert_notification = Vue.component('alert', {
+const alert = Vue.component('alert', {
     props: ['icon'],
     template: `<section class="w3-container w3-red">
     <p>
@@ -83,7 +83,7 @@ const deprecated_codeblock = Vue.component('codeblock', { // Codeblock
     `,
 });
 
-const website_footer = Vue.component('footerio', { // Footer
+const footerio = Vue.component('footerio', { // Footer
     template: `<footer>
         <div class="ft-gradient"><br><br><br><br></div>
         <div class="io-footer">
@@ -123,7 +123,7 @@ const website_footer = Vue.component('footerio', { // Footer
 const app = new Vue({
     el: '#app',
     data: {
-        version: 'Beijing',
+        version: 'Seoul',
     },
     components: {
         headerio,
