@@ -22,3 +22,4 @@ Redirect 301 "/history.html" "https://gitlab.com/AceiusIO/acei.us/-/commits/main
 
 #Just some fun
 Redirect 301 "/panda" "https://youtu.be/dQw4w9WgXcQ"
+Redirect 301 "/panda.html" "/panda"
