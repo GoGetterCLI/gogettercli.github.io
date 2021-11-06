@@ -12,6 +12,7 @@ First, clone the project to disk with the git.
 You will need:
  - Webserver (I use `python3 -m http.server`)
  - Vue and JS knowledge
+ 
 Once you've made your changes, you can either use it for your own website (provided it's sufficently rebranded), or submit you changes to me via a merge request.
 If your changes are deemed stable, they will be pushed to the [staging website](http://staging.acei.us).
 
