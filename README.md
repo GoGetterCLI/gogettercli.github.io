@@ -1,7 +1,7 @@
 # acei.us
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://forthebadge.com)  
-![shields-io](https://img.shields.io/badge/Customization%20Options-Scuffed%20lol-yellowgreen) ![shields-io](https://img.shields.io/badge/Development%20Progress-0%25-red)
+![shields-io](https://img.shields.io/badge/Development%20Progress-100%25-green) ![shields-io](https://img.shields.io/badge/Current%20Version-Shanghai-blue) ![shields-io](https://img.shields.io/badge/Development%20Version-Seoul-purple)
 
 This repo stores the source code for https://acei.us  
 The latest builds can be found on http://staging.acei.us  
