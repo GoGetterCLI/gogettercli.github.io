@@ -1,4 +1,4 @@
-const greetings = ['Welcome to acei.us', 'Bienvenido a acei.us', '歡迎來到acei.us']
+const greetings = ['Welcome to acei.us', 'Bienvenido a acei.us', '歡迎來到acei.us', 'kwa gwa acei.us;']
 let selected_greeting = 0;
 
 const welcome_loop = window.setInterval(function(){
