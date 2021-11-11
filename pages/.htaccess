@@ -1,4 +1,1 @@
-Redirect 301 "/pages/index.html" "/"
-Redirect 301 "/pages" "/"
-
-Redirect 301 "/pages/cascade" "/pages/cascade.html"
+Redirect 301/pages/
