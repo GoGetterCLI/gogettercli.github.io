@@ -40,7 +40,18 @@ const alert = Vue.component('alert', {
         {{icon}} <slot></slot>
     </p>
     </section>`
-})
+});
+
+const markup_file = Vue.component('markup_file', {
+    props: ['document_path'],
+    template: `<section class="w3-container w3-red">
+        <div id="markup_content"></div>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script>
+            document.getElementById('markup_content').innerHTML = marked.parse({{document_path}});
+        </script>
+    </section>`
+});
 
 const deprecated_blogpost = Vue.component('blogpost', { // Post
     props: ['posttitle', 'postauthor', 'postlink'],
