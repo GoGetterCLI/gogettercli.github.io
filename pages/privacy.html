@@ -28,8 +28,10 @@
             <headerio title="Privacy Policy"></headerio>
             <section class="w3-container">
                 <p>This will be the best privacy policy you have ever read</p>
-
-                <markup_file document-path="https://acei.us/assets/md/privacy.md"></markupfile>
+                <div id="markup_content"></div>
+                <script>
+                    document.getElementById('markup_content').innerHTML = marked.parse('https://acei.us/assets/md/privacy.md');
+                </script>
             </section>
             <footerio></footerio>
         </div>
