@@ -43,7 +43,7 @@ const alert = Vue.component('alert', {
 });
 
 const markup_file = Vue.component('markup_file', {
-    props: ['document_path'],
+    props: ['document-path'],
     template: `<section class="w3-container w3-red">
         <div id="markup_content"></div>
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -103,8 +103,8 @@ const footerio = Vue.component('footerio', { // Footer
                 <a href="/about.html" class="w3-bar-item w3-button">About</a>
                 <a href="/contact.html" class="w3-bar-item w3-button">Contact</a>
                 <a href="/history.html" class="w3-bar-item w3-button">Changelog</a>
-                <!--<a href="https://acei.us/other/privacy.html" class="w3-bar-item w3-button">Privacy Policy</a>
-                <a href="https://acei.us/other/librejs.html" class="w3-bar-item w3-button" rel="jslicense">LibreJS</a>-->
+                <a href="https://acei.us/pages/privacy.html" class="w3-bar-item w3-button">Privacy Policy</a>
+                <!--<a href="https://acei.us/other/librejs.html" class="w3-bar-item w3-button" rel="jslicense">LibreJS</a>-->
             </div>
 
             <div class="w3-bar w3-container">
