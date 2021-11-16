@@ -16,5 +16,13 @@ You will need:
 Once you've made your changes, you can either use it for your own website (provided it's sufficently rebranded), or submit you changes to me via a merge request.
 If your changes are deemed stable, they will be pushed to the [staging website](http://staging.acei.us).
 
+## ⚙ Development instructions
+ - Keep your code clean
+ - Use underscores not camel case or anything like that
+ - Use ecma script (ex. let not var)
+ - Use single quotes
+ - When you delete a file, you must name your commit 'Delteeted filename'
+   - This is a rule not a joke
+
 ## 📜 Licencing
 Acei.us is licenced under the MIT Licence.
