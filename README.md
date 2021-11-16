@@ -1,7 +1,8 @@
 # acei.us
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://forthebadge.com)  
-![shields-io](https://img.shields.io/badge/Development%20Progress-100%25-green) ![shields-io](https://img.shields.io/badge/Current%20Version-Shanghai-blue) ![shields-io](https://img.shields.io/badge/Development%20Version-Seoul-purple)
+
+![shields-io](https://img.shields.io/badge/Development%20Progress-100%25-green) ![shields-io](https://img.shields.io/badge/Current%20Version-Shanghai-blue) ![shields-io](https://img.shields.io/badge/Development%20Version-Seoul-purple)  ![shields-io](https://img.shields.io/discord/807797061181243413?label=Discord&logo=discord)
 
 This repo stores the source code for https://acei.us  
 The latest builds can be found on http://staging.acei.us  
@@ -23,6 +24,17 @@ If your changes are deemed stable, they will be pushed to the [staging website](
  - Use single quotes
  - When you delete a file, you must name your commit 'Delteeted filename'
    - This is a rule not a joke
+
+## 👥 Our team
+Here at Acei.us we have an epic team of pandas with swag who maintain this website!
+  - Aceius (founder) - `aceius@acei.us`
+  - Emantella (maintainer) - `emantella@staging.acei.us`
+  
+You can also contact us by emailing
+  - `io@acei.us` - General things
+  - `git@staging.acei.us` - Questions about this repo
+
+Oh yeah! Discord: https://discord.gg/D25Pj4cuZ9
 
 ## 📜 Licencing
 Acei.us is licenced under the MIT Licence.
