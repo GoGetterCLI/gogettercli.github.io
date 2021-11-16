@@ -42,6 +42,13 @@ const alert = Vue.component('alert', {
     </section>`
 });
 
+const copy_content = Vue.component('copycontent', {
+    props: ['label', 'content'],
+    template: `<section>
+    <button class="w3-button w3-button-white" :title="content" :onclick="{ copyText: content, navigator.clipboard.writeText(copyText); }">Copy {{label}}</button>
+    </section>`
+});
+
 const markup_file = Vue.component('markup_file', {
     props: ['document-path'],
     template: `<section class="w3-container w3-red">
