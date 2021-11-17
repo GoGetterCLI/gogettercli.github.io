@@ -129,7 +129,7 @@ const footerio = Vue.component('footerio', { // Footer
             </div>-->
 
             <div class="w3-container">
-                <p>This website's content is licensed under a <a rel="license" href="https://gitlab.com/AceiusIO/acei.us/-/blob/main/LICENSE">MIT License</a>, unless otherwise noted. If you enjoy the content, please consider <a href="https://acei.us/donate.html">donating</a>. The current stardate is {{stardate}}</p>
+                <p>This website's content is licensed under a <a rel="license" href="https://gitlab.com/AceiusIO/acei.us/-/blob/main/LICENSE">MIT License</a>, unless otherwise noted. If you enjoy the content, please consider <a href="https://acei.us/donate.html">donating</a>. The current stardate is {{app.stardate}}</p>
             </div>
 
             <div class="w3-container io-footer-gradiant">
