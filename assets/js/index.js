@@ -111,6 +111,8 @@ const footerio = Vue.component('footerio', { // Footer
                 <a href="/contact.html" class="w3-bar-item w3-button">Contact</a>
                 <a href="/history.html" class="w3-bar-item w3-button">Changelog</a>
                 <a href="/pages/privacy.html" class="w3-bar-item w3-button">Privacy Policy</a>
+                <a class="w3-bar-item"> | </a>
+                <a href="http://staging.acei.us" class="w3-bar-item w3-button">Staging Website</a>
                 <!--<a href="https://acei.us/other/librejs.html" class="w3-bar-item w3-button" rel="jslicense">LibreJS</a>-->
             </div>
 
@@ -127,7 +129,7 @@ const footerio = Vue.component('footerio', { // Footer
             </div>-->
 
             <div class="w3-container">
-                <p>This website's content is licensed under a <a rel="license" href="https://gitlab.com/AceiusIO/acei.us/-/blob/main/LICENSE">MIT License</a>, unless otherwise noted. If you enjoy the content, please consider <a href="https://acei.us/donate.html">donating</a>.</p>
+                <p>This website's content is licensed under a <a rel="license" href="https://gitlab.com/AceiusIO/acei.us/-/blob/main/LICENSE">MIT License</a>, unless otherwise noted. If you enjoy the content, please consider <a href="https://acei.us/donate.html">donating</a>. The current stardate is {{stardate}}</p>
             </div>
 
             <div class="w3-container io-footer-gradiant">
@@ -142,6 +144,17 @@ const app = new Vue({
     el: '#app',
     data: {
         version: '"Seoul" 5.2.0',
+    },
+    computed: {
+        stardate: function () {
+            const date = new Date();
+            let staryear = (date.getFullYear() * 2)
+            let starmonth = (date.getMonth() * 2)
+            let timeindex = date.getDate()
+
+            let final_stardate = staryear + '' + starmonth + '.' + timeindex
+            return(final_stardate);
+        }
     },
     components: {
         headerio,
