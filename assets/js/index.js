@@ -47,6 +47,21 @@ const alert = Vue.component('alert', {
     </section>`
 });
 
+const codeblock = Vue.component('codeblock', { // Codeblock
+    props: ['lang'],
+    name: 'codeblock',
+    template: `<!-- Begin Codeblock -->
+    <section>
+        <p style="text-align: right; text-transform: uppercase; size: 75%;">{{lang}}</p>
+        <section>
+            <div :class="lang + 'High code'">
+                <slot></slot>
+            </div>
+        </section>
+    </section>
+    `,
+});
+
 const copy_content = Vue.component('copycontent', {
     props: ['label', 'content'],
     template: `<section>
@@ -89,21 +104,6 @@ const deprecated_accordian = Vue.component('accordian', {
             <slot></slot>
         </section>
     </section>`
-});
-
-const deprecated_codeblock = Vue.component('codeblock', { // Codeblock
-    props: ['lang'],
-    name: 'codeblock',
-    template: `<!-- Begin Codeblock -->
-    <section>
-        <p style="text-align: right; text-transform: uppercase; size: 75%;">{{lang}}</p>
-        <section>
-            <div :class="lang + 'High code'">
-                <slot></slot>
-            </div>
-        </section>
-    </section>
-    `,
 });
 
 const footerio = Vue.component('footerio', { // Footer
