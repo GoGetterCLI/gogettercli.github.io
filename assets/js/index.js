@@ -10,6 +10,12 @@ const linksio = Vue.component('linksio', {
             <a class="w3-bar-item"> | </a>
             <!--<a href="/cloud.html" class="w3-bar-item w3-button">Cloud</a>-->
             <a href="https://aceius.gitbook.io/wiki/" class="w3-bar-item w3-button">Wiki</a>
+            <div class="w3-dropdown-hover">
+                <button class="w3-button">Projects</button>
+                <div class="w3-dropdown-content w3-bar-block w3-border">
+                    <a href="/pages/cascade.html" class="w3-bar-item w3-button">Cascade</a>
+                </div>
+            </div>
             <a class="w3-bar-item"> | </a>
             <a href="/about.html" class="w3-bar-item w3-button">About</a>
             <a href="/contact.html" class="w3-bar-item w3-button">Contact</a>
