@@ -54,9 +54,9 @@ const codeblock = Vue.component('codeblock', { // Codeblock
     <section>
         <p style="text-align: right; text-transform: uppercase; size: 75%;">{{lang}}</p>
         <section>
-            <div :class="lang + 'High code'">
+            <p>
                 <slot></slot>
-            </div>
+            </p>
         </section>
     </section>
     `,
