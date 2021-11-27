@@ -32,7 +32,7 @@ const headerio = Vue.component('headerio', {
         <linksio></linksio>
 
         <h1 class="w3-animate-top">{{title}}</h1>
-        <h3>AceiusIO</h3>
+        <h3>Acei.us</h3>
     </header>`,
 });
 
@@ -54,9 +54,9 @@ const codeblock = Vue.component('codeblock', { // Codeblock
     <section>
         <p style="text-align: right; text-transform: uppercase; size: 75%;">{{lang}}</p>
         <section>
-            <p>
+            <div class="code">
                 <slot></slot>
-            </p>
+            </div>
         </section>
     </section>
     `,
