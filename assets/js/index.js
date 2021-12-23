@@ -8,7 +8,7 @@ const linksio = Vue.component('linksio', {
     template: `<nav id="navigation" class="w3-bar">
             <a href="/" class="w3-bar-item w3-button"><img src="https://acei.us/favicon.png" alt="Cyborg Aceius" width="25"/> Home</a>
             <a class="w3-bar-item"> | </a>
-            <!--<a href="/cloud.html" class="w3-bar-item w3-button">Cloud</a>-->
+            <!--<a href="/pages/cloud.html" class="w3-bar-item w3-button">Cloud</a>-->
             <a href="https://aceius.gitbook.io/wiki/" class="w3-bar-item w3-button">Wiki</a>
             <div class="w3-dropdown-hover">
                 <button class="w3-button">Projects</button>
@@ -20,7 +20,7 @@ const linksio = Vue.component('linksio', {
             <a href="/about.html" class="w3-bar-item w3-button">About</a>
             <a href="/contact.html" class="w3-bar-item w3-button">Contact</a>
             <a href="/donate.html" class="w3-bar-item w3-button">Donate</a>
-            <a href="https://stuffby.acei.us" class="w3-bar-item w3-button w3-right">Login</a><!--
+            <a href="https://stuffby.acei.us/cloud" class="w3-bar-item w3-button w3-right">Login</a><!--
             <a href="https://acei.us/panda.html" class="w3-bar-item w3-button">Panda</a>
             <a class="w3-bar-item w3 button">&#x1F319; Light/ &#9728; Dark</a>-->
     </nav>`
