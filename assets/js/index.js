@@ -79,6 +79,10 @@ const markup_file = Vue.component('markup_file', {
     </section>`
 });
 
+const snow = Vue.component('snow', {
+    template: ``
+});
+
 const deprecated_blogpost = Vue.component('blogpost', { // Post
     props: ['posttitle', 'postauthor', 'postlink'],
     template: `<article class="w3-container blogpost">
