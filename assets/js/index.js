@@ -80,7 +80,7 @@ const markup_file = Vue.component('markup_file', {
 });
 
 const snow = Vue.component('snow', {
-    template: `<div class="snow"></div>
+    template: `<div>
 <div class="snow"></div>
 <div class="snow"></div>
 <div class="snow"></div>
@@ -279,7 +279,9 @@ const snow = Vue.component('snow', {
 <div class="snow"></div>
 <div class="snow"></div>
 <div class="snow"></div>
-<div class="snow"></div>`
+<div class="snow"></div>
+<div class="snow"></div>
+</div>`
 });
 
 const deprecated_blogpost = Vue.component('blogpost', { // Post
