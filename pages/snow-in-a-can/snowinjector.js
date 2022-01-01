@@ -1,1 +1,0 @@
-function injectSnow(scriptURL) { var scriptElem = document.createElement('SCRIPT'); /*scriptElem.setAttribute('language', 'JavaScript');*/ scriptElem.setAttribute('src', scriptURL); document.body.appendChild(scriptElem);}injectSnow('<link href="https://acei.us/assets/css/effectSnow.css" rel="stylesheet" type="text/css" /><snow></snow*
