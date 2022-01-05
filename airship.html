@@ -5,8 +5,9 @@
     <title>Acei.us (airship-poc-0.1.13)</title>
     <meta charset="utf-8">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="/assets/js/welcome.widget.js"></script>
 
     <style id="tab-css">
       #tab-content p {
@@ -26,7 +27,7 @@
         <div class="hero-body">
             <div class="container is-centered">
                 <img src="https://acei.us/favicon.png" alt="acei.us Logo" width="256">
-                <h1 class="title">Hello, I'm Aceius.<br />Welcome to Acei.us.</h1>
+                <h1 class="title">Hello, I'm Aceius.<br /><span id="greetings">Welcome to Acei.us</span>.</h1>
             </div>
         </div>
         </div>
@@ -47,6 +48,9 @@
           <p>If you need to get in touch with any of us, you can use the <a href="/contact.html">contact page</a> to find our email addresses, or join our discord!</p>
 
           <article>
+            <h2 class="title is-2">Projects</h2>
+            <p>Some things I've done.</p>
+
             <div class="tabs" id="tabs">
               <ul>
                 <li class="is-active" data-tab="1"><a>Acei.us</a></li>
