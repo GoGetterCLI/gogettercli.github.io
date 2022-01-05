@@ -385,10 +385,6 @@ const app = new Vue({
     el: '#app',
     data: {
         version: '"Seoul" 5.2.0',
-    },
-    components: {
-        headerio,
-        footerio,
     }
 });
 
