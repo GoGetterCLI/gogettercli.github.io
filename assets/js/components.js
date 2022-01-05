@@ -19,13 +19,13 @@ const header = Vue.component('aceius-header', {
               </a>
             </div>
           
-            <div id="navbarBasicExample" class="navbar-menu">
+            <div id="navigation" class="navbar-menu">
               <div class="navbar-start">
-                <a class="navbar-item">
+                <a class="navbar-item" href="/">
                   Home
                 </a>
           
-                <a class="navbar-item">
+                <a class="navbar-item" href="https://aceius.gitbook.io">
                   Documentation
                 </a>
           
@@ -35,14 +35,14 @@ const header = Vue.component('aceius-header', {
                   </a>
           
                   <div class="navbar-dropdown">
-                    <a class="navbar-item">
+                    <a class="navbar-item" href="/pages/cascade.html">
                       Cascade
                     </a>
                     <a class="navbar-item">
                       BedrockJS
                     </a>
                     <hr class="navbar-divider">
-                    <a class="navbar-item">
+                    <a class="navbar-item" href="https://gitlab.com/acei.us">
                       Gitlab
                     </a>
                   </div>
@@ -54,14 +54,14 @@ const header = Vue.component('aceius-header', {
                     </a>
             
                     <div class="navbar-dropdown">
-                      <a class="navbar-item">
+                      <a class="navbar-item" href="/about.html">
                         About
                       </a>
-                      <a class="navbar-item">
+                      <a class="navbar-item" href="/contact.html">
                         Contact
                       </a>
                       <hr class="navbar-divider">
-                      <a class="navbar-item">
+                      <a class="navbar-item" href="/donate.html">
                         Donate
                       </a>
                     </div>
@@ -71,10 +71,10 @@ const header = Vue.component('aceius-header', {
               <div class="navbar-end">
                 <div class="navbar-item">
                   <div class="buttons">
-                    <a class="button is-link">
+                    <a class="button is-link" href="https://stuffby.acei.us">
                       <strong>Services</strong>
                     </a>
-                    <a class="button">
+                    <a class="button" href="/contact.html">
                       Sign up
                     </a>
                   </div>
