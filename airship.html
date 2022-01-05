@@ -7,6 +7,16 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+
+    <style id="tab-css">
+      #tab-content p {
+        display: none;
+      }
+
+      #tab-content p.is-active {
+        display: block;
+      }
+    </style>
   </head>
   <body>
   <section class="section" id="app">
@@ -39,10 +49,10 @@
           <article>
             <div class="tabs">
               <ul>
-                <li class="is-active"><a>Project 1</a></li>
-                <li><a>Project 2</a></li>
-                <li><a>Project 3</a></li>
-                <li><a>Project 4</a></li>
+                <li class="is-active" data-tab="1"><a>Project 1</a></li>
+                <li data-tab="2"><a>Project 2</a></li>
+                <li data-tab="3"><a>Project 3</a></li>
+                <li data-tab="4"><a>Project 4</a></li>
               </ul>
             </div>
           </article>
@@ -59,5 +69,41 @@
     </footer>
   </section>
   <script src="/assets/js/components.js"></script>
+  <script>
+    const TABS = [...document.querySelectorAll('#tabs li')];
+    const CONTENT = [...document.querySelectorAll('#tab-content p')];
+    const ACTIVE_CLASS = 'is-active';
+
+    function initTabs() {
+        TABS.forEach((tab) => {
+          tab.addEventListener('click', (e) => {
+            let selected = tab.getAttribute('data-tab');
+            updateActiveTab(tab);
+            updateActiveContent(selected);
+          })
+        })
+    }
+
+    function updateActiveTab(selected) {
+      TABS.forEach((tab) => {
+        if (tab && tab.classList.contains(ACTIVE_CLASS)) {
+          tab.classList.remove(ACTIVE_CLASS);
+        }
+      });
+      selected.classList.add(ACTIVE_CLASS);
+    }
+
+    function updateActiveContent(selected) {
+      CONTENT.forEach((item) => {
+        if (item && item.classList.contains(ACTIVE_CLASS)) {
+          item.classList.remove(ACTIVE_CLASS);
+        }
+        let data = item.getAttribute('data-content');
+        if (data === selected) {
+          item.classList.add(ACTIVE_CLASS);
+        }
+      });
+    }
+    </script>
   </body>
 </html>
