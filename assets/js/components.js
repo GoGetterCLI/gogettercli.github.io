@@ -332,7 +332,36 @@ const deprecated_accordian = Vue.component('accordian', {
 });
 
 const footer = Vue.component('aceius-footer', { // Footer
-    template: `<footer>
+    template: `<footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Acei.us</strong> is maintained by Aceius E., and their team of Pandas with swag. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+      </p>
+      <a href="https://bulma.io">
+            <img
+                src="https://bulma.io/images/made-with-bulma.png"
+                alt="Made with Bulma"
+                width="128"
+                height="24">
+        </a>
+    </div>
+  </footer>`,
+    computed: {
+        stardate: function () {
+            const date = new Date();
+            let staryear = (date.getFullYear() * 2)
+            let starmonth = (date.getMonth() * 2)
+            let timeindex = date.getDate()
+
+            let final_stardate = staryear + '' + starmonth + '.' + timeindex
+            return(final_stardate);
+        }
+    },
+    name: 'aceius-footer'
+});
+
+/*<footer>
         <div class="ft-gradient"><br><br><br><br></div>
         <div class="io-footer">
             <div class="w3-bar w3-container">
@@ -366,20 +395,7 @@ const footer = Vue.component('aceius-footer', { // Footer
                 <p><a href="https://www.acei.us">www.acei.us</a> made &amp; maintained with love by <a href="/about.html">The Acei.us Team</a>.</p>
             </div>
         </div>
-    </footer>`,
-    computed: {
-        stardate: function () {
-            const date = new Date();
-            let staryear = (date.getFullYear() * 2)
-            let starmonth = (date.getMonth() * 2)
-            let timeindex = date.getDate()
-
-            let final_stardate = staryear + '' + starmonth + '.' + timeindex
-            return(final_stardate);
-        }
-    },
-    name: 'aceius-footer'
-});
+    </footer>*/
 
 const app = new Vue({
     el: '#app',
