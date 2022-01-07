@@ -28,6 +28,10 @@ const header = Vue.component('aceius-header', {
                 <a class="navbar-item" href="https://aceius.gitbook.io">
                   Documentation
                 </a>
+
+                <a class="navbar-item" href="/blog">
+                  Blog
+                </a>
           
                 <div class="navbar-item has-dropdown is-hoverable">
                   <a class="navbar-link">
