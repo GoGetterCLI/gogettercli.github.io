@@ -1,10 +1,10 @@
-# acei.us
+# acei.us (Airship POC)
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://forthebadge.com)  
 
 ![shields-io](https://img.shields.io/badge/Development%20Progress-23%25-orange) ![shields-io](https://img.shields.io/badge/Current%20Version-Seoul-blue) ![shields-io](https://img.shields.io/badge/Development%20Version-Tokyo-purple)  ![shields-io](https://img.shields.io/discord/807797061181243413?label=Discord&logo=discord)
 
-This repo stores the source code for https://acei.us  
+This branch stores the source code for the Airship POC for acei.us
 The latest builds can be found on http://staging.acei.us  
 Feel free to use this to learn or as a template for your own website.  
 
