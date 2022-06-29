@@ -89,45 +89,24 @@ const header = Vue.component('aceius-header', {
     </div>`,
 });
 
-const codeblock = Vue.component('codeblock', { // Codeblock
-    props: ['lang'],
-    name: 'codeblock',
-    template: `<!-- Begin Codeblock -->
-    <section>
-        <p style="text-align: right; text-transform: uppercase; size: 75%;">{{lang}}</p>
-        <section>
-            <div class="code">
-                <slot></slot>
-            </div>
-        </section>
-    </section>
-    `,
-});
-
-const deprecated_blogpost = Vue.component('blogpost', { // Post
-    props: ['posttitle', 'postauthor', 'postlink'],
-    template: `<article class="w3-container blogpost">
-        <h3 :id="postlink">{{posttitle}}</h3>
-        <p>Author: AceiusIO</p>
-        <div class="w3-animate-left">
-            <slot></slot>
-        </div>
-        <p>Share this article: <code>https://acei.us/{{postlink}}</code></p>
-    </article>
-    `,
-});
-
-const deprecated_accordian = Vue.component('accordian', {
-    props: ['title', 'num'],
-    name: 'accordian',
-    template: `<section>
-        <button :onclick="'openAccordian(' + num + ');'" class="w3-button w3-block w3-left-align">
-        {{title}}</button>
-        
-        <section :id="num" class="w3-container w3-hide">
-            <slot></slot>
-        </section>
-    </section>`
+const cookies = Vue.component('cookies', { // Cookie
+    name: 'cookies',
+    template: `<div class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Cookies</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <!-- Content ... -->
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Save changes</button>
+        <button class="button">Cancel</button>
+      </footer>
+    </div>
+  </div>`,
 });
 
 const footer = Vue.component('aceius-footer', { // Footer
