@@ -11,7 +11,7 @@ const header = Vue.component('aceius-header', {
       <div id="main-menu" class="navbar-menu has-text-weight-medium">
         <div class="navbar-start">
 
-          <a class="navbar-item" href="github.com/" title="Data">
+          <a class="navbar-item" href="https://github.com/GoGetterCLI/cli" title="Data">
             <span>Docs</span>
           </a>
 
